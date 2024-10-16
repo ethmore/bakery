@@ -1,0 +1,43 @@
+/* .inverted-border-radius::before {
+    --r: 16px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+    
+    top: -50px;
+    left: 0;
+    height: 50px;
+    width: var(--r);
+    border-bottom-left-radius: var(--r);
+    box-shadow: 0 25px 0 0 hsl(0 0% 94.1%);
+  } */
+
+  .inverted-border-radius::before {
+    --r: 16px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+    
+    bottom: -50px;
+    left: 0px;
+    height: 50px;
+    width: var(--r);
+    border-top-left-radius: var(--r);
+    box-shadow: 0 -16px 0 0 hsl(0 0% 94.1%);
+  }
+
+  .inverted-border-radius::after {
+    --r: 16px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+
+    /* background-color: aqua; */
+    
+    right: calc(-1 * (var(--r)) + 1px);
+    top: 0px;
+    height: 50px;
+    width: var(--r);
+    border-top-left-radius: var(--r);
+    box-shadow: 0 -25px 0 0 hsl(0 0% 94.1%);
+  }

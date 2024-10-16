@@ -1,0 +1,27 @@
+.inverted-border-radius::before {
+    --r: 24px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+
+    top: 0px;
+    left: -24px;
+    height: 50px;
+    width: var(--r);
+    border-top-right-radius: var(--r);
+    box-shadow: 1px -16px 0 0 hsl(var(--background));
+}
+
+.inverted-border-radius::after {
+    --r: 24px;
+    content: "";
+    position: absolute;
+    z-index: 10;
+
+    right: calc(-1 * (var(--r)));
+    top: 0px;
+    height: 50px;
+    width: var(--r);
+    border-top-left-radius: var(--r);
+    box-shadow: -1px -25px 0 0 hsl(var(--background));
+}
