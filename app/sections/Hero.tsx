@@ -14,7 +14,7 @@ function Hero() {
         </div>
 
         <div className="relative min-h-[min(100vh,900px)] select-none  overflow-hidden">
-            <Image src={`./bakery/louis-hansel-KEV9F9nHVrw-unsplash.webp`} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
+            <Image src={`./louis-hansel-KEV9F9nHVrw-unsplash.webp`} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
         </div>
 
         <div className="absolute w-full h-[450px] -bottom-1 pointer-events-none select-none">
@@ -23,7 +23,7 @@ function Hero() {
         
         <div className="select-none">
             <div className="absolute bottom-4 left-10 z-20 pointer-events-none">
-                <Image src={`${prefix}/simit_dropshadow.webp`} alt="wave" width={0} height={0} priority className="w-[450px] h-[330px]"/>
+                <Image src={`./simit_dropshadow.webp`} alt="wave" width={0} height={0} priority className="w-[450px] h-[330px]"/>
             </div>
     
             <div className="absolute bottom-[30%] left-10 animate-smoke1 z-10 pointer-events-none">

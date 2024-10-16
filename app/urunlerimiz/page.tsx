@@ -18,138 +18,138 @@ import { prefix } from "@/prefix";
 const hamurisleri = [
     {
         name: "Çikolatalı Puf",
-        imgSrc: `${prefix}/products/cikopuf.jpg`,
+        imgSrc: `./products/cikopuf.jpg`,
     },
     {
         name: "Peynirli Milföy",
-        imgSrc: `${prefix}/products/peynirlimilfoy.jpg`,
+        imgSrc: `./products/peynirlimilfoy.jpg`,
     },
     {
         name: "Katmer",
-        imgSrc: `${prefix}/products/katmer.jpg`,
+        imgSrc: `./products/katmer.jpg`,
     },
     {
         name: "Ekler",
-        imgSrc: `${prefix}/products/ekler.webp`,
+        imgSrc: `./products/ekler.webp`,
     },
     {
         name: "Tahinli Çörek",
-        imgSrc: `${prefix}/products/tahinli-corek.jpg`,
+        imgSrc: `./products/tahinli-corek.jpg`,
     },
 ];
 
 const tuzlukurabiyeler = [
     {
         name: "Tuzlu Klasik",
-        imgSrc: `${prefix}/products/tuzlu-klasik.webp`,
+        imgSrc: `./products/tuzlu-klasik.webp`,
     },
     {
         name: "Dereotlu",
-        imgSrc: `${prefix}/products/dereotlu.webp`,
+        imgSrc: `./products/dereotlu.webp`,
     },
     {
         name: "Pizza Kurabiye",
-        imgSrc: `${prefix}/products/pizza-kurabiye.jpg`,
+        imgSrc: `./products/pizza-kurabiye.jpg`,
     },
     {
         name: "Çörekotlu",
-        imgSrc: `${prefix}/products/corekotlu.jpg`,
+        imgSrc: `./products/corekotlu.jpg`,
     },
     {
         name: "Maydanozlu",
-        imgSrc: `${prefix}/products/maydanozlu.webp`,
+        imgSrc: `./products/maydanozlu.webp`,
     },
 ];
 
 const tatlikurabiyeler = [
     {
         name: "Un Kurabiyesi",
-        imgSrc: `${prefix}/products/un-kurabiyesi.jpg`,
+        imgSrc: `./products/un-kurabiyesi.jpg`,
     },
     {
         name: "Marmelatlı Kurabiye",
-        imgSrc: `${prefix}/products/marmelatli-kurabiye.jpg`,
+        imgSrc: `./products/marmelatli-kurabiye.jpg`,
     },
     {
         name: "İngiliz Kurabiyesi",
-        imgSrc: `${prefix}/products/ingiliz-kurabiyesi.webp`,
+        imgSrc: `./products/ingiliz-kurabiyesi.webp`,
     },
     {
         name: "Elmalı Kurabiye",
-        imgSrc: `${prefix}/products/elmalı.jpg`,
+        imgSrc: `./products/elmalı.jpg`,
     },
     {
         name: "Portakallı Kurabiye",
-        imgSrc: `${prefix}/products/portakalli-kurabiye.webp`,
+        imgSrc: `./products/portakalli-kurabiye.webp`,
     },
 ];
 
 const ekmekler = [
     {
         name: "Hamburger Ekmeği",
-        imgSrc: `${prefix}/products/hamburger-ekmegi.webp`,
+        imgSrc: `./products/hamburger-ekmegi.webp`,
     },
     {
         name: "Pirinç Ekmeği",
-        imgSrc: `${prefix}/products/pirinc-ekmek.webp`,
+        imgSrc: `./products/pirinc-ekmek.webp`,
     },
     {
         name: "Tam Tahıllı Ekmek",
-        imgSrc: `${prefix}/products/tam-tahilli.jpg`,
+        imgSrc: `./products/tam-tahilli.jpg`,
     },
     {
         name: "Baget Ekmek",
-        imgSrc: `${prefix}/products/baguette.jpg`,
+        imgSrc: `./products/baguette.jpg`,
     },
     {
         name: "Sandviç Ekmeği",
-        imgSrc: `${prefix}/products/sandwich.jpg`,
+        imgSrc: `./products/sandwich.jpg`,
     },
 ];
 
 const serbetliler = [
     {
         name: "Soğuk Baklava",
-        imgSrc: `${prefix}/products/sogukbaklava.webp`,
+        imgSrc: `./products/sogukbaklava.webp`,
     },
     {
         name: "Fıstıklı Baklava",
-        imgSrc: `${prefix}/products/Fistikli-Baklava.webp`,
+        imgSrc: `./products/Fistikli-Baklava.webp`,
     },
     {
         name: "Şekerpare",
-        imgSrc: `${prefix}/products/sekerpare-1.webp`,
+        imgSrc: `./products/sekerpare-1.webp`,
     },
     {
         name: "Revani",
-        imgSrc: `${prefix}/products/revani.webp`,
+        imgSrc: `./products/revani.webp`,
     },
     {
         name: "Güllaç",
-        imgSrc: `${prefix}/products/gullac.webp`,
+        imgSrc: `./products/gullac.webp`,
     },
 ];
 
 const pastalar = [
     {
         name: "Çilekli Pasta",
-        imgSrc: `${prefix}/products/cilekli.jpg`,
+        imgSrc: `./products/cilekli.jpg`,
     },
     {
         name: "Çikolatalım",
-        imgSrc: `${prefix}/products/cikolatalım.jpg`,
+        imgSrc: `./products/cikolatalım.jpg`,
     },
     {
         name: "Yaban Mersinli Pasta",
-        imgSrc: `${prefix}/products/yabanmersini.webp`,
+        imgSrc: `./products/yabanmersini.webp`,
     },
     {
         name: "Çikolatalı Trüf Pasta",
-        imgSrc: `${prefix}/products/cikolata-truf.jpg`,
+        imgSrc: `./products/cikolata-truf.jpg`,
     },
     {
         name: "Bademli Pasta",
-        imgSrc: `${prefix}/products/bademli.webp`,
+        imgSrc: `./products/bademli.webp`,
     },
 ];
 

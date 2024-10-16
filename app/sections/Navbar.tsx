@@ -17,7 +17,7 @@ function Navbar(props:{active?: 'main' | 'products' | 'about' | 'services' | 'co
 
                 <Link className="relative w-[100px] h-[100px] select-none  hover:scale-105 duration-200" href="/">
                     <Image
-                        src={`${prefix}/Brot-lineart.png`}
+                        src={`./Brot-lineart.png`}
                         alt="logo"
                         fill
                         className="object-cover"
