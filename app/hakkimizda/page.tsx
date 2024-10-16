@@ -4,6 +4,7 @@ import Navbar from "../sections/Navbar";
 import Image from "next/image";
 import Footer from "../sections/Footer";
 import Contact from "../sections/Contact";
+import { prefix } from "@/prefix";
 
 function page() {
     return (
@@ -45,7 +46,7 @@ function page() {
 
                 <div className="order-1 lg:order-2 relative w-full h-[300px] lg:h-auto animate-slide-from-right duration-700">
                     <Image
-                        src="/holding_tray_2.webp"
+                        src={`${prefix}/holding_tray_2.webp`}
                         alt="hakkimizda"
                         fill
                         className="object-cover rounded-2xl lg:rounded-[30%70%71%29%/24%30%70%76%]"
@@ -56,7 +57,7 @@ function page() {
             <div className="grid grid-cols-1 lg:grid-cols-2 mx-8 lg:mx-auto lg:w-7/12 mt-52 gap-8">
                 <div className="relative w-full h-[300px] lg:h-auto">
                     <Image
-                        src="/in_shop.webp"
+                        src={`${prefix}/in_shop.webp`}
                         alt="hakkimizda"
                         fill
                         className="object-cover rounded-2xl lg:rounded-[62%38%37%63%/35%52%48%65%]"
