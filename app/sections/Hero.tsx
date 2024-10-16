@@ -14,11 +14,11 @@ function Hero() {
         </div>
 
         <div className="relative min-h-[min(100vh,900px)] select-none  overflow-hidden">
-            <Image src={`${prefix}/louis-hansel-KEV9F9nHVrw-unsplash.webp`} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
+            <Image src={`./bakery/louis-hansel-KEV9F9nHVrw-unsplash.webp`} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
         </div>
 
         <div className="absolute w-full h-[450px] -bottom-1 pointer-events-none select-none">
-            <Image src={`${prefix}/wave.png`} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
+            <Image src={`/wave.png`} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
         </div>
         
         <div className="select-none">
