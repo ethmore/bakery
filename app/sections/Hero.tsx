@@ -3,6 +3,7 @@ import { Dancing_Script, Pacifico } from "next/font/google"
 const dancingScript = Dancing_Script({subsets: ['latin']})
 const pacifico = Pacifico({subsets: ['latin'], weight: ['400']})
 import smoke from "@/public/smoke.png"
+import { prefix } from "@/prefix"
 
 function Hero() {
   return (
@@ -13,7 +14,7 @@ function Hero() {
         </div>
 
         <div className="relative min-h-[min(100vh,900px)] select-none  overflow-hidden">
-            <Image src={"/louis-hansel-KEV9F9nHVrw-unsplash.webp"} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
+            <Image src={`${prefix}/louis-hansel-KEV9F9nHVrw-unsplash.webp`} alt="hero" fill priority className="filter blur-[3px] brightness-75 object-cover scale-105 min-[1999px]:scale-[0.99]"/>
         </div>
 
         <div className="absolute w-full h-[450px] -bottom-1 pointer-events-none select-none">
