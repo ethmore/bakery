@@ -18,12 +18,12 @@ function Hero() {
         </div>
 
         <div className="absolute w-full h-[450px] -bottom-1 pointer-events-none select-none">
-            <Image src={"/wave.png"} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
+            <Image src={`${prefix}/wave.png`} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
         </div>
         
         <div className="select-none">
             <div className="absolute bottom-4 left-10 z-20 pointer-events-none">
-                <Image src={"/simit_dropshadow.webp"} alt="wave" width={0} height={0} priority className="w-[450px] h-[330px]"/>
+                <Image src={`${prefix}/simit_dropshadow.webp`} alt="wave" width={0} height={0} priority className="w-[450px] h-[330px]"/>
             </div>
     
             <div className="absolute bottom-[30%] left-10 animate-smoke1 z-10 pointer-events-none">

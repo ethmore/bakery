@@ -1,4 +1,5 @@
 "use client";
+import { prefix } from "@/prefix";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -16,7 +17,7 @@ function Navbar(props:{active?: 'main' | 'products' | 'about' | 'services' | 'co
 
                 <Link className="relative w-[100px] h-[100px] select-none  hover:scale-105 duration-200" href="/">
                     <Image
-                        src={"/Brot-lineart.png"}
+                        src={`${prefix}/Brot-lineart.png`}
                         alt="logo"
                         fill
                         className="object-cover"
