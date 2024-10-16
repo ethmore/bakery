@@ -1,24 +1,23 @@
 import Image from "next/image";
 import { Title } from "../Components/Title";
-import { prefix } from "@/prefix";
 
 const services = [
     {
-        imgSrc: `./services/birthday-cake-svgrepo-com.svg`,
+        imgSrc: "./services/birthday-cake-svgrepo-com.svg",
         imgAlt: "Kutlama Pastaları",
         title: "Kutlama Pastaları",
         description:
             "Kişiye özel pasta ve tatlılarımızla unutulmaz bir anı yaşatın.",
     },
     {
-        imgSrc: `./services/coffee-to-go-svgrepo-com.svg`,
+        imgSrc: "./services/coffee-to-go-svgrepo-com.svg",
         imgAlt: "Kahve ve Çay Keyfi",
         title: "Kahve ve Çay Keyfi",
         description:
             "Mestiva'da keyifli bir kahve veya çay deneyimi de bulabilirsiniz.",
     },
     {
-        imgSrc: `./services/party-svgrepo-com.svg`,
+        imgSrc: "./services/party-svgrepo-com.svg",
         imgAlt: "Parti Malzemeleri",
         title: "Parti Malzemeleri",
         description:
@@ -26,21 +25,21 @@ const services = [
     },
 
     {
-        imgSrc: `./services/vegan-svgrepo-com.svg`,
+        imgSrc: "./services/vegan-svgrepo-com.svg",
         imgAlt: "Diyet ve Özel Ürünler",
         title: "Diyet ve Özel Ürünler",
         description:
             "Glutensiz, vegan veya diğer özel diyet ihtiyaçlarınıza uygun seçeneklerimizle, herkesin lezzetli bir tat almasını sağlıyoruz.",
     },
     {
-        imgSrc: `./services/small-crowd-people-public-men-svgrepo-com.svg`,
+        imgSrc: "./services/small-crowd-people-public-men-svgrepo-com.svg",
         imgAlt: "Toplu Siparişler",
         title: "Toplu Siparişler",
         description:
             "Özel etkinlikleriniz, toplantılarınız veya kalabalık davetleriniz için toplu siparişlerinizi büyük bir özenle hazırlıyoruz.",
     },
     {
-        imgSrc: `./services/cookie-svgrepo-com.svg`,
+        imgSrc: "./services/cookie-svgrepo-com.svg",
         imgAlt: "Tatlı ve Tuzlu Atıştırmalıklar",
         title: "Tatlı ve Tuzlu Atıştırmalıklar",
         description:

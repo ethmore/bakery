@@ -28,7 +28,7 @@ function Page() {
                     number="01."
                     title="Özel Gün ve Kutlama Pastaları"
                     description="Doğum günü, düğün, nişan ve diğer özel günler için size özel tasarlanmış, göz alıcı ve lezzet dolu pastalar hazırlıyoruz. Hayalinizdeki pastayı yaratmak için buradayız!"
-                    imageSrc="/products/cikolata-truf.jpg"
+                    imageSrc="./products/cikolata-truf.jpg"
                 />
 
                 <ServiceItem
@@ -36,7 +36,7 @@ function Page() {
                     number="02."
                     title="Kahve ve Çay Keyfi"
                     description="Günlük hayatın koşturmacasında küçük bir mola verin! Taze çekilmiş kahve çeşitlerimiz ve özenle demlenmiş çaylarımızla lezzetli tatlılarımızı tamamlayacak keyifli bir deneyim sunuyoruz."
-                    imageSrc="/pasta_cay.webp"
+                    imageSrc="./pasta_cay.webp"
                 />
 
                 <ServiceItem
@@ -44,7 +44,7 @@ function Page() {
                     number="03."
                     title="Parti ve Etkinlik Malzemeleri"
                     description="Etkinliklerinizi renklendirecek pasta süsleri, tabaklar, bardaklar ve diğer dekoratif malzemelerle ihtiyacınız olan her şeyi sağlıyoruz. Şık ve renkli bir ortam için Mestiva’ya göz atın!"
-                    imageSrc="/birthday-concept.webp"
+                    imageSrc="./birthday-concept.webp"
                 />
             </div>
 
@@ -54,7 +54,7 @@ function Page() {
                     number="04."
                     title="Diyet ve Özel Ürünler"
                     description="Glutensiz, şekersiz ve vegan gibi özel diyet ihtiyaçlarınıza uygun tatlı ve tuzlu alternatiflerimizle herkesin gönül rahatlığıyla tat almasını sağlıyoruz."
-                    imageSrc="/products/ingiliz-kurabiyesi.webp"
+                    imageSrc="./products/ingiliz-kurabiyesi.webp"
                 />
 
                 <ServiceItem
@@ -62,7 +62,7 @@ function Page() {
                     number="05."
                     title="Toplu Siparişler ve Catering"
                     description="Şirket toplantıları, özel davetler veya kalabalık etkinlikler için toplu siparişlerinizi özenle hazırlıyoruz. Catering hizmetimizle organizasyonlarınızda lezzetlerimizi paylaşın!"
-                    imageSrc="/products/erol-ahmed-FpnTM-OER_w-unsplash.webp"
+                    imageSrc="./products/erol-ahmed-FpnTM-OER_w-unsplash.webp"
                 />
 
                 <ServiceItem
@@ -70,7 +70,7 @@ function Page() {
                     number="06s."
                     title="Tatlı ve Tuzlu Atıştırmalıklar"
                     description="Tatlı ve tuzlu atıştırmalıklarımızla açlığınızı lezzetli bir mola ile bastırın. Günlük taze börekler, kurabiyeler ve mini sandviçler ile her öğüne uygun atıştırmalıklar Mestiva’da!"
-                    imageSrc="/products/nina-plobner-IxVSmiQKsH8-unsplash.webp"
+                    imageSrc="./products/nina-plobner-IxVSmiQKsH8-unsplash.webp"
                 />
             </div>
 

@@ -2,19 +2,18 @@ import Image from "next/image"
 import {Title} from "../Components/Title"
 import Link from "next/link"
 import './style.css'
-import { prefix } from "@/prefix"
 
 function Products() {
   return (
     <div id="products" className="mt-40 scroll-mt-40">
         <Title text="Ürünlerimiz" underline/>
         <div className="grid grid-cols-1 md:grid-cols-3 w-fit m-auto gap-14 gap-x-20 mt-10">
-            <Product title="Hamur İşleri" href="/urunlerimiz" imgSrc={`./products/eve-lyn-8cCzOKwXMiw-unsplash.webp`} imgAlt="product1"/>
-            <Product title="Tuzlular" href="/urunlerimiz" imgSrc={`./products/pizza-kurabiye.jpg`} imgAlt="product2"/>
-            <Product title="Tatlılar" href="/urunlerimiz" imgSrc={`./products/erol-ahmed-FpnTM-OER_w-unsplash.webp`} imgAlt="product4"/>
-            <Product title="Ekmekler" href="/urunlerimiz" imgSrc={`./products/wesual-click-rsWZ-P9FbQ4-unsplash.webp`} imgAlt="product5"/>
-            <Product title="Şerbetliler" href="/urunlerimiz" imgSrc={`./products/sekerpare-1.webp`} imgAlt="product6"/>
-            <Product title="Pastalar" href="/urunlerimiz"  imgSrc={`./products/katarzyna-grabowska-GZ0TGTwiCiQ-unsplash.webp`} imgAlt="product3"/>
+            <Product title="Hamur İşleri" href="/urunlerimiz" imgSrc="./products/eve-lyn-8cCzOKwXMiw-unsplash.webp" imgAlt="product1"/>
+            <Product title="Tuzlular" href="/urunlerimiz" imgSrc="./products/pizza-kurabiye.jpg" imgAlt="product2"/>
+            <Product title="Tatlılar" href="/urunlerimiz" imgSrc="./products/erol-ahmed-FpnTM-OER_w-unsplash.webp" imgAlt="product4"/>
+            <Product title="Ekmekler" href="/urunlerimiz" imgSrc="./products/wesual-click-rsWZ-P9FbQ4-unsplash.webp" imgAlt="product5"/>
+            <Product title="Şerbetliler" href="/urunlerimiz" imgSrc="./products/sekerpare-1.webp" imgAlt="product6"/>
+            <Product title="Pastalar" href="/urunlerimiz"  imgSrc="./products/katarzyna-grabowska-GZ0TGTwiCiQ-unsplash.webp" imgAlt="product3"/>
         </div>
     </div>
   )
