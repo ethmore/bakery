@@ -18,7 +18,7 @@ function Hero() {
         </div>
 
         <div className="absolute w-full h-[450px] -bottom-1 pointer-events-none select-none">
-            <Image src={`/wave.png`} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
+            <Image src={`./wave.png`} alt="wave" fill priority className="text-purple-500 fill-slate-900"/>
         </div>
         
         <div className="select-none">
