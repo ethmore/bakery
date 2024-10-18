@@ -36,7 +36,7 @@ function Page() {
                     number="02."
                     title="Kahve ve Çay Keyfi"
                     description="Günlük hayatın koşturmacasında küçük bir mola verin! Taze çekilmiş kahve çeşitlerimiz ve özenle demlenmiş çaylarımızla lezzetli tatlılarımızı tamamlayacak keyifli bir deneyim sunuyoruz."
-                    imageSrc="./pasta_cay.webp"
+                    imageSrc="./general/pasta_cay.webp"
                 />
 
                 <ServiceItem
@@ -44,7 +44,7 @@ function Page() {
                     number="03."
                     title="Parti ve Etkinlik Malzemeleri"
                     description="Etkinliklerinizi renklendirecek pasta süsleri, tabaklar, bardaklar ve diğer dekoratif malzemelerle ihtiyacınız olan her şeyi sağlıyoruz. Şık ve renkli bir ortam için Mestiva’ya göz atın!"
-                    imageSrc="./birthday-concept.webp"
+                    imageSrc="./general/birthday-concept.webp"
                 />
             </div>
 
