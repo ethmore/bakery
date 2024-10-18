@@ -23,10 +23,10 @@ function Hero() {
 
             <div className="relative h-full select-none  overflow-hidden">
                 <img
-                    srcSet="./general/louis-hansel-KEV9F9nHVrw-unsplash.webp 4000w, ./mobile/louis-hansel-KEV9F9nHVrw-unsplash.webp 500w"
+                    srcSet="./general/hero-bg-1900w.webp 4000w, ./general/hero-bg-500w.webp 500w"
                     // sizes="(max-width: 600px) 480px, 800px"
                     // sizes="100vw"
-                    src="./general/louis-hansel-KEV9F9nHVrw-unsplash.webp"
+                    src="./general/hero-bg-1900w.webp"
                     alt="hero"
                     className="filter blur-[3px] brightness-75 object-cover h-full w-full scale-105 min-[1999px]:scale-[0.99]"
                 />

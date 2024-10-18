@@ -19,7 +19,7 @@ const hamurisleri = [
     },
     {
         name: "Katmer",
-        imgSrc: "./products/katmer.jpg",
+        imgSrc: "./products/katmer.webp",
     },
     {
         name: "Ekler",
@@ -185,7 +185,7 @@ function ProductGroup(props: { title: string; products: Object }) {
     return (
         <div className={`mt-16 mx-4 xl:mx-0`} ref={ref}>
             <SubTitle text={props.title} underline />
-            <div className="flex mt-4 gap-4 overflow-x-scroll lg:overflow-hidden">
+            <div className="flex mt-4 gap-4 overflow-x-scroll overflow-y-hidden lg:overflow-hidden">
                 {Object.values(props.products).map((product, key) => {
                     return (
                         <Product

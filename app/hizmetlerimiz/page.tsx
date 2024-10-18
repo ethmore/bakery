@@ -62,7 +62,7 @@ function Page() {
                     number="05."
                     title="Toplu Siparişler ve Catering"
                     description="Şirket toplantıları, özel davetler veya kalabalık etkinlikler için toplu siparişlerinizi özenle hazırlıyoruz. Catering hizmetimizle organizasyonlarınızda lezzetlerimizi paylaşın!"
-                    imageSrc="./products/erol-ahmed-FpnTM-OER_w-unsplash.webp"
+                    imageSrc="./general/catering.webp"
                 />
 
                 <ServiceItem
@@ -70,7 +70,7 @@ function Page() {
                     number="06s."
                     title="Tatlı ve Tuzlu Atıştırmalıklar"
                     description="Tatlı ve tuzlu atıştırmalıklarımızla açlığınızı lezzetli bir mola ile bastırın. Günlük taze börekler, kurabiyeler ve mini sandviçler ile her öğüne uygun atıştırmalıklar Mestiva’da!"
-                    imageSrc="./products/nina-plobner-IxVSmiQKsH8-unsplash.webp"
+                    imageSrc="./general/karisik.webp"
                 />
             </div>
 
