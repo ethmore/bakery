@@ -1,11 +1,12 @@
 .inverted-border-radius::before {
-    --r: 24px;
+    --r: 20px;
     content: "";
     position: absolute;
     z-index: 10;
 
+    /* background-color: rebeccapurple; */
     top: 0px;
-    left: -24px;
+    left: -19px;
     height: 50px;
     width: var(--r);
     border-top-right-radius: var(--r);
@@ -13,7 +14,7 @@
 }
 
 .inverted-border-radius::after {
-    --r: 24px;
+    --r: 20px;
     content: "";
     position: absolute;
     z-index: 10;

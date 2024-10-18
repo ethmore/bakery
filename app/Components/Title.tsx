@@ -5,7 +5,7 @@ export function Title(props: {
 }) {
     return (
         <div className={`w-fit m-auto ${props.class}`}>
-            <h2 className="text-5xl text-center">{props.text}</h2>
+            <h2 className="text-3xl md:text-5xl text-center">{props.text}</h2>
             {props.underline ? <Underline /> : null}
         </div>
     );

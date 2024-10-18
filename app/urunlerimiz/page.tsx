@@ -8,12 +8,6 @@ import Footer from "../sections/Footer";
 import "./style.css";
 import { useInView } from "framer-motion";
 
-// import type { Metadata } from "next";
-
-// export const metadata: Metadata = {
-//     title: "Ürünlerimiz | Mestiva Pastanesi",
-//   };
-
 const hamurisleri = [
     {
         name: "Çikolatalı Puf",
@@ -157,7 +151,7 @@ function page() {
         <div className="m-auto max-w-[1300px]">
             <Navbar active="products" />
             <Title text="Ürünlerimiz" underline class="pt-40" />
-            <p className="w-fit m-auto text-xl mt-4">
+            <p className="w-fit m-auto text-xl mt-4 px-4">
                 Daha fazla ürün için pastanemize bekleriz
             </p>
 
@@ -189,7 +183,7 @@ function ProductGroup(props: { title: string; products: Object }) {
     const isInView = useInView(ref, { margin: "-200px", once: true });
 
     return (
-        <div className={`mt-16 ml-4 lg:ml-0`} ref={ref}>
+        <div className={`mt-16 mx-4 xl:mx-0`} ref={ref}>
             <SubTitle text={props.title} underline />
             <div className="flex mt-4 gap-4 overflow-x-scroll lg:overflow-hidden">
                 {Object.values(props.products).map((product, key) => {

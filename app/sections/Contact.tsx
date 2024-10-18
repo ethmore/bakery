@@ -41,8 +41,8 @@ function Contact() {
             id="contact"
             className="flex flex-col md:flex-row items-center md:items-start justify-between w-10/12 m-auto mt-40 scroll-mt-40">
             <div className="md:w-1/2">
-                <h2 className="text-5xl">Bize Ulaşın</h2>
-                <p className="text-xl mt-8">
+                <h2 className="text-3xl lg:text-5xl">Bize Ulaşın</h2>
+                <p className="lg:text-xl mt-8">
                     Sizlerle iletişime geçmek ve sorularınızı yanıtlamak için
                     her zaman hazırız. Bizimle iletişime geçmek için yandaki
                     iletişim formunu kullanabilir yada <b>{mail}</b> adresine
